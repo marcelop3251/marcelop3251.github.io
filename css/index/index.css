@@ -1,0 +1,308 @@
+.palavras-home{
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding-left: 0px;
+}
+
+.palavra-home {
+   font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: rgba(255, 255, 255, .7);
+    position: absolute;
+    -webkit-animation: aparece 2s;
+    animation: aparece 2s;
+
+}
+
+.eficiencia{ 
+	top: 20%;
+    left: 10%;   
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(1);
+    transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(1);
+
+ }
+
+ .cabecalho{
+    position: relative;
+    transform-style: preserve-3d;
+ }
+
+ .boas-praticas{
+    top: 25%;
+    left: 30%;    
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(10deg) scale(1.9);
+    transform: translate(-50%, -50%) translateZ(4px) rotate(10deg) scale(1.9);
+ }
+
+ .codigo-limpo{
+    top: 30%;
+    left: 75%;  
+    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(5deg) scale(1.3);
+    transform: translate(-50%, -50%) translateZ(4px) rotate(5deg) scale(1.3);
+ }
+
+.css3{
+    top: 20%;
+    left: 90%;
+   
+    -webkit-transform:translate(-50%,-50%)  translateZ(4px) rotate(-15deg) scale(1.6);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(-15deg) scale(1.6);
+}
+
+.html5{
+    top: 45%;
+    left: 85%;
+
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(100deg) scale(1.1);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(10deg) scale(1.1);
+}
+
+.javascript{
+    top: 40%;
+    left: 18%;
+   
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(1deg) scale(1.2);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(1deg) scale(1.2);
+}
+
+.acessibilidade{
+    top: 60%;
+    left: 10%;
+    
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1.5);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(-5deg) scale(1.5);
+
+}
+
+.responsivo{
+    top: 55%;
+    left: 75%;
+  
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1.5);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(5deg) scale(1.5);
+}
+
+.otimizacoes{
+    top: 65%;
+    left: 90%;
+  
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(6deg) scale(1);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(6deg) scale(1);
+}
+
+.agilidade{
+    top: 70%;
+    left: 25%;
+   
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(15deg) scale(1);
+}
+
+.design{
+    top: 70%;
+    left: 50%;
+   
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(0deg) scale(1);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(0deg) scale(1);
+}
+
+.java{
+    top: 85%;
+    left: 20%;
+   
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1.5);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(10deg) scale(1.5);
+}
+
+.spring{
+    top: 75%;
+    left: 70%;   
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(-10deg) scale(1.8);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(-10deg) scale(1.8);
+}
+
+.webService{
+    top: 85%;
+    left: 50%;   
+    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(-5deg) scale(2);
+    transform:translate(-50%,-50%)  translateZ(4px) rotate(-5deg) scale(2);
+}
+
+.familia{
+    border-radius: 100px;
+    transition: box-shadow 1s, transform 1s;
+}
+
+.familia:hover{
+
+    transform: scale(1.1) rotate(2deg);
+
+
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.fundo{   
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.75);
+    
+    z-index: 9999;
+}
+
+.informacao:hover{ 
+    
+    opacity: 1;
+}
+
+.projetos{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.informacao{
+   
+    opacity: 0;
+    display: block;
+    background-color: rgba(240,95,64,.9);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: all .35s;
+}
+
+.nome{
+    color: rgba(255,255,255,1);
+    font-size: 22px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+   
+}
+
+.closes{
+    color: #000;
+    right: -6px;
+    text-align: right;
+    padding-right: 6px;
+    width: 5px;
+    background: transparent;
+    border: none;
+    float: right;
+
+}
+
+h4{
+    display: inline;
+    color: black;
+    padding-left: 10px
+
+}
+
+.padding{
+    padding: 10px;
+    list-style-type: none;
+}
+
+a{
+     color: inherit;
+    
+}
+a:hover{
+    color: inherit;
+}
+
+.scale:hover{
+    transform: scale(1.1);
+  
+}
+.scale{
+     transition: all .35s;
+    height: 130px;
+}
+
+#about{
+    background-color: #000;
+}
+
+.lista{
+    list-style: none;    
+}
+
+.minha-foto{
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    opacity: .7;
+}
+
+.minha-foto img{
+        border-radius: 50px;
+}
+
+header{
+    background-color: rgba(51,51,51,1);
+}
+
+@media screen and (max-width: 768px){
+    .lista{
+            margin-top: 50px;
+    }
+
+    .header-content-inner{
+        margin-top: 100px;
+    }
+}
+
+    @media screen and (max-width: 1024px){
+    
+
+        .palavra-home {
+            font-size: 100%;
+        }
+        .minha-foto{
+            display: none;
+        } 
+    
+    }
+    @media screen and (max-width: 970px){
+    
+
+        .palavra-home {
+            font-size: 80%;
+        }
+        
+    
+    }
+
+    @media screen and (max-width: 750px){
+    
+        .header-content-inner{
+             margin-top: 170px;
+        }
+        .palavra-home {
+            display:none;
+        }
+        .minha-foto{
+            display: block;
+            top: 15%;
+        } 
+        
+    
+    }
+   
