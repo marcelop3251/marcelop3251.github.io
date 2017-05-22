@@ -243,13 +243,7 @@ a:hover{
     list-style: none;    
 }
 
-.minha-foto{
-    left: 50%;
-    top: 10%;
-    transform: translate(-50%, 0%);
-    position: absolute;
-    opacity: .7;
-}
+
 
 
 header{
@@ -272,10 +266,7 @@ header{
         .palavra-home {
             font-size: 100%;
         }
-        .minha-foto{
-            display: none;
-        } 
-    
+        
     }
     @media screen and (max-width: 970px){
     
@@ -295,10 +286,7 @@ header{
         .palavra-home {
             display:none;
         }
-        .minha-foto{
-            display: block;
-            top: 15%;
-        } 
+        
         
     
     }
