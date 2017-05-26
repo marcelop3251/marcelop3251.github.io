@@ -2,6 +2,7 @@
 
 $(".fundo").hide();
 $(".infomacao").hide();
+$(".fundo").css("z-index",99999);
 
 $("#informacao1").click(showModal);
 $("#informacao2").click(showModal);

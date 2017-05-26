@@ -36,23 +36,23 @@
  .boas-praticas{
     top: 25%;
     left: 30%;    
-    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(10deg) scale(1.9);
-    transform: translate(-50%, -50%) translateZ(4px) rotate(10deg) scale(1.9);
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(1.9);
+    transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(1.9);
  }
 
  .codigo-limpo{
     top: 30%;
     left: 75%;  
-    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(5deg) scale(1.3);
-    transform: translate(-50%, -50%) translateZ(4px) rotate(5deg) scale(1.3);
+    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(5deg) scale(1.3);
+    transform: translate(-50%, -50%) translateZ(3px) rotate(5deg) scale(1.3);
  }
 
 .css3{
     top: 20%;
     left: 90%;
    
-    -webkit-transform:translate(-50%,-50%)  translateZ(4px) rotate(-15deg) scale(1.6);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(-15deg) scale(1.6);
+    -webkit-transform:translate(-50%,-50%)  translateZ(2px) rotate(-15deg) scale(1.6);
+    transform:translate(-50%,-50%)  translateZ(2px) rotate(-15deg) scale(1.6);
 }
 
 .html5{
@@ -60,7 +60,7 @@
     left: 85%;
 
     -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(100deg) scale(1.1);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(10deg) scale(1.1);
+    transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1.1);
 }
 
 .javascript{
@@ -68,14 +68,14 @@
     left: 18%;
    
     -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(1deg) scale(1.2);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(1deg) scale(1.2);
+    transform:translate(-50%,-50%)  translateZ(1px) rotate(1deg) scale(1.2);
 }
 
 .acessibilidade{
     top: 60%;
     left: 10%;
     
-    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1.5);
+    -webkit-transform:translate(-50%,-50%)  translateZ(4px) rotate(10deg) scale(1.5);
     transform:translate(-50%,-50%)  translateZ(4px) rotate(-5deg) scale(1.5);
 
 }
@@ -84,54 +84,54 @@
     top: 55%;
     left: 75%;
   
-    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1.5);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(5deg) scale(1.5);
+    -webkit-transform:translate(-50%,-50%)  translateZ(2px) rotate(10deg) scale(1.5);
+    transform:translate(-50%,-50%)  translateZ(2px) rotate(5deg) scale(1.5);
 }
 
 .otimizacoes{
     top: 65%;
     left: 90%;
   
-    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(6deg) scale(1);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(6deg) scale(1);
+    -webkit-transform:translate(-50%,-50%)  translateZ(5px) rotate(6deg) scale(1);
+    transform:translate(-50%,-50%)  translateZ(5px) rotate(6deg) scale(1);
 }
 
 .agilidade{
     top: 70%;
     left: 25%;
    
-    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(15deg) scale(1);
+    -webkit-transform:translate(-50%,-50%)  translateZ(2px) rotate(10deg) scale(1);
+    transform:translate(-50%,-50%)  translateZ(2px) rotate(15deg) scale(1);
 }
 
 .design{
     top: 70%;
     left: 50%;
    
-    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(0deg) scale(1);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(0deg) scale(1);
+    -webkit-transform:translate(-50%,-50%)  translateZ(3px) rotate(0deg) scale(1);
+    transform:translate(-50%,-50%)  translateZ(3px) rotate(0deg) scale(1);
 }
 
 .java{
     top: 85%;
     left: 20%;
    
-    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(10deg) scale(1.5);
+    -webkit-transform:translate(-50%,-50%)  translateZ(4px) rotate(10deg) scale(1.5);
     transform:translate(-50%,-50%)  translateZ(4px) rotate(10deg) scale(1.5);
 }
 
 .spring{
     top: 75%;
     left: 70%;   
-    -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(-10deg) scale(1.8);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(-10deg) scale(1.8);
+    -webkit-transform:translate(-50%,-50%)  translateZ(5px) rotate(-10deg) scale(1.8);
+    transform:translate(-50%,-50%)  translateZ(5px) rotate(-10deg) scale(1.8);
 }
 
 .webService{
     top: 85%;
     left: 50%;   
     -webkit-transform:translate(-50%,-50%)  translateZ(1px) rotate(-5deg) scale(2);
-    transform:translate(-50%,-50%)  translateZ(4px) rotate(-5deg) scale(2);
+    transform:translate(-50%,-50%)  translateZ(1px) rotate(-5deg) scale(2);
 }
 
 .familia{
@@ -158,7 +158,7 @@
     background-color: #FFF;
     box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.75);
     
-    z-index: 9999;
+    z-index: -1;
 }
 
 .informacao:hover{ 
@@ -291,3 +291,15 @@ header{
     
     }
    
+   @-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
