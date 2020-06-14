@@ -17,11 +17,5 @@ $("#informacao6").click(showModal);
 function showModal(){
 	var id = $(this).attr('id');
 	var numero = id.substring(id.length -1, id.length);
-	$("#image" + numero).show();
-	$(".closes").click(close);
-}
-
-
-function close(){
-	$(".fundo").hide();
+	$("#myModal" + numero).modal();
 }
